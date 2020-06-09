@@ -1,0 +1,40 @@
+{
+  "extends": "tslint:all",
+  "rules": {
+    "array-type": false,
+    "comment-format": false,
+    "completed-docs": false,
+    "interface-name": false,
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "member-access": false,
+    "newline-before-return": false,
+    "newline-per-chained-call": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-any": false,
+    "no-implicit-dependencies": false,
+    "no-import-side-effect": false,
+    "no-magic-numbers": false,
+    "no-object-literal-type-assertion": false,
+    "no-parameter-properties": false,
+    "no-submodule-imports": false,
+    "no-unnecessary-class": false,
+    "only-arrow-functions": false,
+    "ordered-imports": false,
+    "prefer-function-over-method": false,
+    "prefer-method-signature": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "strict-boolean-expressions": false,
+    "trailing-comma": false,
+    "typedef": false,
+    "file-name-casing": [
+      true,
+      "kebab-case"
+    ]
+  }
+}

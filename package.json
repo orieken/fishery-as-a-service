@@ -1,0 +1,40 @@
+{
+  "name": "fishery-as-a-service",
+  "version": "0.0.1",
+  "description": "exposing fishery in a small service",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist",
+    "lint": "tslint -c ./tslint.json -p ./tsconfig.json -t stylish",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orieken/fishery-as-a-service.git"
+  },
+  "keywords": [
+    "fishery",
+    "faker",
+    "api"
+  ],
+  "author": "Oscar Rieken <oriekenjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orieken/fishery-as-a-service/issues"
+  },
+  "homepage": "https://github.com/orieken/fishery-as-a-service#readme",
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.12",
+    "faker": "^4.1.0",
+    "fishery": "^0.4.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  }
+}
